@@ -1,0 +1,75 @@
+body{
+    font-family:poppins;
+    background-color: #eee;
+}
+
+.pricing-container {
+    width: 900px;
+    margin: 5% auto;
+}
+.pricing-container-plan {
+    width: 33%;
+    background-color: #bbb9b9;
+    float:left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.pricing-container-plan h1 {
+    font-size: 18px;
+    color: #272727;
+    text-transform: uppercase;
+
+
+}
+
+.pricing-container-price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ac3343;
+    margin: 5% auto 0 auto;
+}
+
+
+.pricing-container-price h2 {
+    font-size: 38px;
+    color: #000;
+}
+
+.pricing-container-deals h4 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #171717;
+    line-height: 1;
+}
+
+.pricing-container-deals {
+    margin-top:10%;
+}
+
+.pricing-container-plan:hover{
+    background: #f14a60;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.pricing-container-plan:hover .pricing-container-price{
+    border-color: #fff;
+}
+
+.select-plan {
+    padding: 5%;
+    border-radius: 5px;
+    border:none;
+    width:90%;
+    margin-bottom:5%;
+}
+
+.select-plan:hover{
+    box-shadow: inset 0 0 3px #000;
+}
