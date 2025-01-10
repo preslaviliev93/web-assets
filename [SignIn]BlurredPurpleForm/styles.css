@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form-container {
+    color: white;
+    padding:30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius:8px;
+    
+}
+.form-title {
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+input[type=text], input[type=password] {
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=checkbox]:focus {
+    outline-color: rgba(155, 89, 182, 0.5);
+
+}
+
+
+.form-row {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:8px 0;
+}
+
+
+label[for="remember-me"] {
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+    font-size: 14px;
+}
+
+.forgotten-link {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+button[type=submit] {
+    width: 100%;
+    background-color: #9b59b6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+.form-errors {
+    
+    display:none;
+    border: 1px solid rgba(231, 76, 60, 0.2);
+    color: #CCC;
+    background: rgba(192, 57, 43, 0.3)
+}
+
+button[type=submit]:hover {
+    background-color: #8e44ad;
+}
